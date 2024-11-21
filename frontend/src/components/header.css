@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(142, 87, 225);
+    height: 60px;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 26px;
+    color: azure;
+    text-shadow: 0px 0px 20px azure;
+}
+
+.pages {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    display: flex;
+    background-color: khaki;
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
